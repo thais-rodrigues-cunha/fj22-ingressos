@@ -18,7 +18,7 @@ public class Sessao {
 	private Sala sala;
 	@ManyToOne
 	private Filme filme;
-	private BigDecimal preco;
+	private BigDecimal preco = BigDecimal.ZERO;
 	
 	/**
 	 * @deprecated hibernate only
